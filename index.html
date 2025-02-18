@@ -4,13 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Istanbul or Tokyo</title>
-    <style>
-        body { text-align: center; font-family: Arial, sans-serif; }
-        iframe { width: 100%; height: 90vh; border: none; }
-    </style>
+    <link rel="icon" type="image/x-icon" href="assets/figures/logo.ico">
+    <meta name="description" content="An AI-powered model that classifies images as Istanbul or Tokyo.">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/main_free.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="clarity/clarity.css" />
+    <script src="assets/scripts/navbar.js"></script>
+    <script src="assets/scripts/main.js"></script>
 </head>
 <body>
-    <h1>Istanbul or Tokyo</h1>
-    <iframe src="https://utkmst-istanbul-or-tokyo.hf.space" allow="clipboard-write"></iframe>
+    <div class="container blog" id="first-content" style="background-color: #304463;">
+        <div class="blog-title white">
+            <div class="blog-intro">
+                <h1 class="title">Istanbul or Tokyo</h1>
+                <p class="author">Developed by Utku Mustu</p>
+                <p class="abstract">
+                    This model analyzes images to determine whether they depict Istanbul or Tokyo. It has been trained on a dataset of 400 images, allowing it to recognize key architectural and visual features unique to each city.
+                </p>
+                <div class="info">
+                    <div>
+                        <a href="https://github.com/utkmst" class="button icon" style="background-color: rgba(255, 255, 255, 0.2)">GitHub <i class="fa fa-github"></i></a>  &nbsp;&nbsp; 
+                        <a href="https://www.kaggle.com/ashuredd" class="button icon" style="background-color: rgba(255, 255, 255, 0.2);">Kaggle <i class="fa fa-database"></i></a> &nbsp;&nbsp; 
+                        <a href="https://huggingface.co/utkmst" class="button icon" style="background-color: rgba(255, 255, 255, 0.2)">HuggingFace <i class="fa fa-smile-o"></i></a> 
+                    </div>
+                </div>
+            </div>         
+        </div>
+
+        <div class="blog-cover">
+            <img class="foreground" src="assets/figures/istanbul.jpg">
+            <img class="background" src="assets/figures/tokyo.jpg">
+        </div>
+    </div>
+</div>
+    
+    <div class="container blog main first" id="blog-main">
+        <h1>How It Works</h1>
+        <p class='text'>Upload an image, and the model will classify it as either Istanbul or Tokyo based on architectural and visual features.</p>
+    </div>
+
+    <div class="container blog main">
+        <h1>Try the Model</h1>
+        <iframe src="https://utkmst-istanbul-or-tokyo.hf.space" width="100%" height="600px" frameborder="0"></iframe>
+    </div>
+
+    <div class="container blog white">
+        <h1>Facts About Istanbul & Tokyo</h1>
+        <p><strong>Tokyo:</strong> Home to the busiest train station, Shinjuku, serving over 3.5 million passengers daily.</p>
+        <p><strong>Istanbul:</strong> A city that spans two continents, divided by the Bosphorus Strait.</p>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>This website is built on the Clarity Template and customized for AI classification of Istanbul and Tokyo.</p>
+        </div>
+    </footer>
 </body>
 </html>
