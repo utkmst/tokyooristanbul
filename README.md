@@ -15,24 +15,6 @@ This website is built on the [Clarity Template](https://github.com/lorenmt/clari
 You can try the model directly on our hosted space:
 [Try the Model](https://utkmst-istanbul-or-tokyo.hf.space)
 
-## Installation
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/utkmst/tokyooristanbul
-   cd tokyooristanbul
-   ```
-
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Run the model:
-   ```sh
-   python app.py
-   ```
 
 ## Technologies Used
 - **Python** (for model development)
