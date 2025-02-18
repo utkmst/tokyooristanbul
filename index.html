@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istanbul or Tokyo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Istanbul or Tokyo</h1>
+    
+    <div class="container">
+        <div class="upload-box">
+            <label for="imageUpload">Input Image</label>
+            <div class="drop-area" id="drop-area">
+                <p>Drop Image Here<br>- or -<br>Click to Upload</p>
+                <input type="file" id="imageUpload" accept="image/*" hidden>
+            </div>
+        </div>
+        
+        <div class="output-box">
+            <label>Output</label>
+            <div id="output"> </div>
+        </div>
+    </div>
+    
+    <div class="buttons">
+        <button id="clear">Clear</button>
+        <button id="submit">Submit</button>
+    </div>
+    
+    <div class="examples">
+        <h3>Examples</h3>
+        <div class="example-images">
+            <img src="example1.jpg" alt="Example 1">
+            <img src="example2.jpg" alt="Example 2">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
