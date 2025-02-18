@@ -13,7 +13,7 @@ This website is built on the [Clarity Template](https://github.com/lorenmt/clari
 
 ## Live Demo
 You can try the model directly on our hosted space:
-[Try the Model](https://utkmst-istanbul-or-tokyo.hf.space)
+[Try the Model](https://huggingface.co/spaces/utkmst/istanbul_or_tokyo)
 
 
 ## Technologies Used
